@@ -7,9 +7,10 @@ metadata:
   annotations:
     tekton.dev/pipelines.minVersion: "0.12.1"
     tekton.dev/tags: gcp
+    tekton.dev/platforms: linux/s390x
 spec:
   description: >-
-    This task performs operations on Google Cloud Platform resources using gcloud.
+    This task performs operations on Google Cloud Platform resources using gcloud.!
 
   params:
   - name: gcloud-image
